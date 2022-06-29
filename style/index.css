@@ -1,0 +1,149 @@
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 160px;
+}
+.hero-text{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.hero-text h2{
+    font-size: var(--font-header);
+    color: var(--color-text);
+    line-height: 80px;
+    font-weight: 700;
+}
+
+.hero-text p{
+    font-size: var(--font-paragraph);
+    color: var(--color-text);
+    font-weight: 400;
+    line-height: 45px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.learn-btn{
+    padding: 15px 25px;
+    border: 0;
+    background-color: var(--color-main);
+    border-radius: 10px;
+}
+
+.learn-btn a{
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--color-white);
+}
+
+.services-btn{
+    padding: 14px 25px;
+    border: 1px solid var(--color-main);
+    background-color: var(--color-white);
+    border-radius: 10px;
+}
+.services-btn a{
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--color-main);
+}
+
+.hero-img{
+    position: relative;
+}
+.hero-img img{
+    width: 600px;
+}
+
+.cardboard{
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    background-color: var(--color-main);
+    margin-left: 200px;
+    z-index: -1;
+    overflow: hidden;
+}
+.circle{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background:rgba(255, 255, 255, 0.08);
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 180px;
+}
+.response{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 160px;
+    background-color: var(--color-main);
+    gap: 50px;
+}
+
+.response-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+.response-text h2{
+    font-size: var(--font-header);
+    color: var(--color-white);
+    line-height: 80px;
+    font-weight: 700;
+}
+
+.response-text p{
+    font-size: 18px;
+    color: var(--color-white);
+    font-weight: 400;
+    line-height: 45px;
+}
+
+form{
+    background: var(--color-white);
+    width: 500px;
+    padding: 30px ;
+    border-radius: 10px;
+}
+form div{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 10px 0;
+}
+label{
+    font-size: 16px;
+    color: var(--color-text);
+}
+input{
+    width: 100%;
+    padding: 10px;
+    background:#2466e925 ;
+    border: 2px solid #2466e925;
+    outline: 0;
+    border-radius: 5px;
+}
+
+.cta-btn{
+    width: 100%;
+    height: 50px;
+    border: 0;
+    background: var(--color-main);
+    border-radius: 10px;
+}
+
+.cta-btn a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color-white);
+}

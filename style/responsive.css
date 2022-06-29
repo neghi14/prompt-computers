@@ -1,0 +1,27 @@
+@media (max-width: 48rem) {
+    *{
+        outline: 1px solid green;
+    }
+    .navbar{
+        display: none;
+    }
+    .hero{
+        flex-direction: column-reverse;
+        padding: 80px 10px;
+    }
+    .hero-img{
+        width: 100%;
+    }
+    .hero-img img{
+        width: 400px;
+    }
+    .cardboard{
+        margin-left: 100px;
+        width: 250px;
+        height: 400px;
+    }
+    .response{
+        display: none;
+        flex-direction: column-reverse;
+    }
+}

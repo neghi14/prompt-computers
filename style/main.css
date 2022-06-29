@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+
+:root{
+    --color-main: #2465E9;
+    --color-text: #2E2F3A;
+    --color-white:#ffffff;
+    --font-header: 70px;
+    --font-paragraph: 26px;
+    --font-primary: 18px;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo{
+    font-size: var(--font-paragraph);
+    color: var(--color-main);
+    font-weight: 700;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+}
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: var(--color-text);
+    font-weight: 700;
+}
+
+.nav-links li a:hover{
+    color: var(--color-main);
+}
+
+.nav-line{
+    background: #2466e925;
+    border: 1px solid #2466e925;
+}
